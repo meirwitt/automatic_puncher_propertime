@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Meir Witt",
+        "username": "308403930",
+        "password": "Meirwitt30!",
+        "skip_days_list": []
+    },
+    {
+        "name": "Ran Shushan",
+        "username": "308281575",
+        "password": "Rs123456!",
+        "skip_days_list": [6]
+    },
+    {
+        "name": "Guy Laor",
+        "username": "200950350",
+        "password": "Mor@1612150",
+        "skip_days_list": []
+    },
+    {
+        "name": "Eyal Benchamo",
+        "username": "316590314",
+        "password": "Bzytsbzyts6!",
+        "skip_days_list": []
+    },
+    {
+        "name": "Yair Shachar",
+        "username": "55278436",
+        "password": "KingofSnow",
+        "skip_days_list": []
+    }
+]
