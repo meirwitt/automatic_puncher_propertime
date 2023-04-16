@@ -28,5 +28,17 @@
         "username": "55278436",
         "password": "KingofSnow",
         "skip_days_list": []
+    },
+    {
+        "name": "Noa Evyatar",
+        "username": "203553110",
+        "password": "Ne1234!",
+        "skip_days_list": []
+    },
+    {
+        "name": "Omer Amrani",
+        "username": "207804899",
+        "password": "Aa123456!",
+        "skip_days_list": []
     }
 ]
