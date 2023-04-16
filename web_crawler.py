@@ -233,6 +233,7 @@ def sleep_from_start_to_end(start_sleep, stop_time):
 
 def punch_all_day():
     print("Starting to punch all day")
+    global CONFIG_DICT
     
     
     need_punch_in = True
@@ -245,7 +246,7 @@ def punch_all_day():
             # if its fryday or saturday sleep until sunday monday its 0
             if now_is.tm_wday == 4 or now_is.tm_wday == 5:
                 print("Its weekend, sleep until sunday")
-                while now_is.tm_wday != 6: # sunday is 6
+                while now_is.tm_wday != 6 or now_is.tm_hour < 8: # sunday is 6
                     sleep(600)
                     now_is = time.localtime()
                 sleep(300)
