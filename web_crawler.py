@@ -246,6 +246,7 @@ def punch_all_day():
             # if its fryday or saturday sleep until sunday monday its 0
             if now_is.tm_wday == 4 or now_is.tm_wday == 5:
                 print("Its weekend, sleep until sunday")
+                exit() # exit the program
                 while now_is.tm_wday != 6 or now_is.tm_hour < 8: # sunday is 6
                     sleep(600)
                     now_is = time.localtime()
@@ -273,6 +274,7 @@ def punch_all_day():
                 print(f"Finnish to punch all OUT. See you tomorrow at 8:00 AM")
                 print("*"*50)
                 # tommorow_at_8 = time.localtime(32400 + int(datetime.datetime.now().timestamp()) + 86400)
+                exit() # exit the program
                 sleep_until_morning(now_is.tm_hour, 8)
 
             
